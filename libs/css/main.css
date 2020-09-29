@@ -1,0 +1,228 @@
+
+div.header {
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+/*NAVBAR*/
+div.nav {
+border: none;
+border-radius: 0;
+background-color: #0561fa;
+-webkit-box-shadow: inset 0px -4px 0px 0px #033b96;
+-moz-box-shadow: inset 0px -4px 0px 0px #033b96;
+box-shadow: inset 0px -4px 0px 0px #033b96; 
+z-index: 5;
+}
+
+
+
+
+div.nav > div > div > ul > li > a {
+	padding: 25px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white !important;
+}
+div.nav > div > div > button {
+	color: white;
+	padding: 17px;
+}
+div.nav > div > div > button:hover {
+	color: white;
+	background-color: transparent !important;
+}
+div.nav > div > div > button:focus {
+	color: white;
+	background-color: transparent !important;
+}
+div.nav > div > div > a.navbar-brand {
+	padding: 25px;
+	font-weight: 900;
+	color: white;
+}
+@media (min-width: 768px) {
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
+
+}
+.nav-store {
+background: #033b96; 
+}
+
+
+/*POSTAGEM CSS*/ 
+
+
+.MainSection {
+	width: 100%;
+	padding: 10px;
+	margin: 0 auto;
+	display: table;
+}
+
+/* MainNews */
+
+.MainNews {
+	width: 100%;
+	background: white;
+}
+
+.NewsTitle {
+	width: 100%;
+	background-color: #2756f1;
+	padding: 10px;
+	float: left;
+	color: white;
+}
+
+
+.NewsATT {
+	width: 100%;
+	padding: 20px;
+}
+
+.NewsFooter {
+	width: 100%;
+	background-color: #f2f2f2;
+	padding: 10px;
+	float: left;
+	color: black;
+}
+
+.button-1 {
+    background-color: #339bd9; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 2px;
+	text-decoration: none;
+	border-bottom: 4px solid #2488c2;
+}
+
+
+
+
+.button-1 a {
+    text-decoration: none;
+	background-color: #339bd9; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 2px;
+}
+
+
+
+.button-1 a:hover {
+    text-decoration: none;
+	background-color: #339bd9; 
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.button-1 a:focus {
+	text-decoration: none !important;
+	color: white !important;
+	
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #0072ff;
+    color: white;
+    border: 1px solid #0072ff;
+}
+
+.pagination a:hover {
+    background-color: #0072ff;
+    color: white;
+    border: 1px solid #0072ff;
+	text-decoration: none;
+}
+
+
+.pagination a:hover:not(.active) {background-color: #0072ff;}
+
+.card {
+	margin: 1px;
+	padding: 5px;
+	color: white;
+	border-radius: 15px;
+	text-align: center;
+	margin: 5px;
+}
+
+.card:hover {
+	opacity: 0.7;
+    cursor: pointer;
+	
+}
+
+i.circle {
+   border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	background: #2488c2;
+	color: white;
+	padding: 9px;
+	margin: 3px;
+	width:100px;
+
+}
+
+
+
+.card .card-text{
+  margin-top: 30%;
+  margin-bottom:  30%;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
+
+footer.copyright {
+	background-color: #2756f1;
+	color: white;
+	padding: 3px;
+}
+
+
+@media only screen and (max-width: 500px){
+    img {
+        width: 100%;
+    }
+}
